@@ -1,0 +1,14 @@
+{
+  "id": "o5muu7ghck_certificates",
+  "data": {
+    "questions": [
+      "Certificates"
+    ],
+    "answer": "Certificates are \"answer from Q&A\"",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "",
+    "enabled": true
+  }
+}

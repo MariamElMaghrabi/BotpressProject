@@ -1,0 +1,14 @@
+{
+  "id": "89mske317v_accounts",
+  "data": {
+    "questions": [
+      "Accounts"
+    ],
+    "answer": "Manage your finances through CIB current accounts and save yourself the hassle of carrying cash around\n \nThe current account is designed to facilitate your everyday banking transactions, providing you with a host of​ benefits that suit your banking needs:\nA non-interest bearing current account that allows you to deposit and withdraw cash at any time and from any CIB branch​​\nCash withdrawal on demand via checks from any CIB branch, or through our vast network of more than 600 ATMs across Egypt\nOffered to individuals and corporate customers\nFree internet banking service enabling you to access your accounts 24/7 through​ www.cibeg.com​​",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "",
+    "enabled": true
+  }
+}

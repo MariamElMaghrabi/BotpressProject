@@ -1,0 +1,65 @@
+{
+  "version": "0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": [
+      {
+        "condition": "event.nlu.intent.is('forget')",
+        "node": "forget-my-name"
+      }
+    ]
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "a54a82eb7c",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_card-3hv2gp"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-39acdb"
+        }
+      ]
+    },
+    {
+      "id": "skill-39acdb",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-39acdb",
+      "flow": "skills/choice-39acdb.flow.json",
+      "next": [
+        {
+          "condition": "state['skill-choice-ret'] == \"customer\"",
+          "node": "customer.flow.json"
+        },
+        {
+          "condition": "state['skill-choice-ret'] == \"visitor\"",
+          "node": "visitor.flow.json"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "ask_again"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "27ca882c8a",
+      "name": "ask_again",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-39acdb"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    }
+  ]
+}

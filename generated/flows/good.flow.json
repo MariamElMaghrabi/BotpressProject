@@ -1,0 +1,91 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "957e653845",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-LwZBws"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "true",
+          "node": "new"
+        }
+      ]
+    },
+    {
+      "id": "6cae476d31",
+      "name": "new",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-b563d6"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_image-IsyVsc"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "skill-b563d6",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-b563d6",
+      "flow": "skills/choice-b563d6.flow.json",
+      "next": [
+        {
+          "caption": "User picked [customer]",
+          "condition": "state['skill-choice-ret'] == \"customer\"",
+          "node": "customer"
+        },
+        {
+          "caption": "User picked [visitor]",
+          "condition": "state['skill-choice-ret'] == \"visitor\"",
+          "node": "visitor"
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "node-008d"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    },
+    {
+      "id": "2a01c2658f",
+      "name": "node-008d",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-b563d6"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null
+    },
+    {
+      "id": "19d12fd392",
+      "name": "customer",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-5HaRXj"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "a3737a5726",
+      "name": "visitor",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-oHIcYc"
+      ],
+      "onReceive": null
+    }
+  ]
+}

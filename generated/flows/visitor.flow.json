@@ -1,0 +1,76 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "e8dc1931a1",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-rip43A"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"inputUser\",\"value\":\"{{event.value}}\",\"expiry\":\"never\"}",
+        "say #!builtin_text-4jphFD",
+        "getUserVariable {\"name\":\"inputUser\",\"output\":\"$r\"}"
+      ],
+      "next": [
+        {
+          "condition": "true",
+          "node": "phone"
+        }
+      ]
+    },
+    {
+      "id": "4ab0a9da88",
+      "name": "phone",
+      "next": [
+        {
+          "condition": "true",
+          "node": "email"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-4IAKhL"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"phoneUser\",\"value\":\"{{event.value}}\",\"expiry\":\"never\"}"
+      ]
+    },
+    {
+      "id": "28cc0b3e34",
+      "name": "email",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-aa30"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-QJVFiu"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"email\",\"value\":\"{{event.value}}\",\"expiry\":\"never\"}"
+      ]
+    },
+    {
+      "id": "58fcfc673f",
+      "name": "node-00e0",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_carousel-QR3Ikk"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "a9d1924b84",
+      "name": "node-aa30",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-Fj3Fnv",
+        "isValidEmailSignature {}"
+      ],
+      "onReceive": null
+    }
+  ]
+}

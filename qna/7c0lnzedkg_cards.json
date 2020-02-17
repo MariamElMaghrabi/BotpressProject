@@ -1,0 +1,14 @@
+{
+  "id": "7c0lnzedkg_cards",
+  "data": {
+    "questions": [
+      "Cards"
+    ],
+    "answer": "Cards are \"answer from Q&A\"",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "",
+    "enabled": true
+  }
+}

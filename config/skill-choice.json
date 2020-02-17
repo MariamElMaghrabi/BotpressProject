@@ -1,0 +1,8 @@
+{
+  "defaultContentElement": "builtin_single-choice",
+  "defaultContentRenderer": "#builtin_single-choice",
+  "defaultMaxAttempts": "3",
+  "disableIntegrityCheck": false,
+  "matchNumbers": true, 
+  "matchNLU": true
+}

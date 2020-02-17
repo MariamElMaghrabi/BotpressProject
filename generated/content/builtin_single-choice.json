@@ -1,0 +1,40 @@
+[
+  {
+    "id": "builtin_single-choice-2adMQQ",
+    "formData": {
+      "text": "Are you a bank customer or a visitor?",
+      "choices": [
+        {
+          "title": "Bank Customer",
+          "value": "customer"
+        },
+        {
+          "title": "Visitor",
+          "value": "visitor"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-10T14:11:00.197Z"
+  },
+  {
+    "id": "builtin_single-choice-Q6zEQN",
+    "formData": {
+      "text": "Are you a bank customer or a visitor?",
+      "choices": [
+        {
+          "title": "Bank customer",
+          "value": "customer"
+        },
+        {
+          "title": "Visitor",
+          "value": "visitor"
+        }
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-02-10T16:46:01.155Z"
+  }
+]

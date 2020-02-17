@@ -1,0 +1,156 @@
+[
+  {
+    "id": "builtin_carousel-QR3Ikk",
+    "formData": [
+      {
+        "title": "Accounts",
+        "image": "/media/7glvnx5cpu3a51773841-generic_bank_logo.jpg",
+        "actions": [
+          {
+            "title": "Accounts",
+            "action": "Say something",
+            "url": "www.google.com"
+          },
+          {
+            "title": "Inquire About",
+            "action": "Open URL",
+            "url": "https://www.cibeg.com/English/Personal/Accounts/Pages/default.aspx"
+          }
+        ],
+        "typing": true
+      },
+      {
+        "title": "Loans",
+        "image": "/media/ufn5hcnayc0h10rm6cey-generic_bank_logo.jpg",
+        "actions": [
+          {
+            "title": "Loans",
+            "action": "Say something"
+          },
+          {
+            "title": "Inquire About",
+            "action": "Open URL",
+            "url": "https://www.cibeg.com/English/Personal/Loans/Pages/default.aspx"
+          }
+        ],
+        "typing": true
+      },
+      {
+        "title": "Cards",
+        "image": "/media/wmysxzblu0nuflbro816-generic_bank_logo.jpg",
+        "actions": [
+          {
+            "title": "Cards",
+            "action": "Say something"
+          },
+          {
+            "title": "Inquire About",
+            "action": "Open URL",
+            "url": "https://www.cibeg.com/English/Personal/Cards/Pages/default.aspx"
+          }
+        ],
+        "typing": true
+      },
+      {
+        "title": "Certificates",
+        "image": "/media/jgkuu6kyk5v8pxjxwrqg-generic_bank_logo.jpg",
+        "actions": [
+          {
+            "title": "Certificates",
+            "action": "Say something"
+          },
+          {
+            "title": "Inquire About",
+            "action": "Open URL",
+            "url": "https://www.cibeg.com/English/Personal/Investments/Pages/default.aspx"
+          }
+        ],
+        "typing": true
+      }
+    ],
+    "createdBy": "admin",
+    "createdOn": "2020-02-11T11:54:58.100Z"
+  },
+  {
+    "id": "builtin_carousel-aUSlnz",
+    "formData": [
+      {
+        "title": "Login",
+        "image": "/media/hnvw9ugw7bbao0l9j4ah-generic_bank_logo.jpg",
+        "actions": [
+          {
+            "title": "Login",
+            "action": "Say something"
+          }
+        ],
+        "typing": true
+      },
+      {
+        "title": "Accounts",
+        "image": "/media/rhbl7q2awmppmsg3lfxg-generic_bank_logo.jpg",
+        "actions": [
+          {
+            "title": "Accounts",
+            "action": "Say something"
+          },
+          {
+            "title": "Inquire About",
+            "action": "Open URL",
+            "url": "https://www.cibeg.com/English/Personal/Accounts/Pages/default.aspx"
+          }
+        ],
+        "typing": true
+      },
+      {
+        "title": "Loans",
+        "image": "/media/zluznme8qdqzp2zzwpsv-generic_bank_logo.jpg",
+        "actions": [
+          {
+            "title": "Loans",
+            "action": "Say something"
+          },
+          {
+            "title": "Inquire About",
+            "action": "Open URL",
+            "url": "https://www.cibeg.com/English/Personal/Loans/Pages/default.aspx"
+          }
+        ],
+        "typing": true
+      },
+      {
+        "title": "Cards",
+        "image": "/media/4rjkiyjs5necrfu6qukx-generic_bank_logo.jpg",
+        "actions": [
+          {
+            "title": "Cards",
+            "action": "Say something"
+          },
+          {
+            "title": "Inquire About",
+            "action": "Open URL",
+            "url": "https://www.cibeg.com/English/Personal/Cards/Pages/default.aspx"
+          }
+        ],
+        "typing": true
+      },
+      {
+        "title": "Certificates",
+        "image": "/media/bj1w54i6dug5ohe8sdi6-generic_bank_logo.jpg",
+        "actions": [
+          {
+            "title": "Certificates",
+            "action": "Say something"
+          },
+          {
+            "title": "Inquire About",
+            "action": "Open URL",
+            "url": "https://www.cibeg.com/English/Personal/Investments/Pages/default.aspx"
+          }
+        ],
+        "typing": true
+      }
+    ],
+    "createdBy": "admin",
+    "createdOn": "2020-02-15T17:05:37.667Z"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "id": "4835s2rdjz_loans",
+  "data": {
+    "questions": [
+      "Loans"
+    ],
+    "answer": "Loans are \"answer from Q&A\"",
+    "redirectFlow": "",
+    "redirectNode": "",
+    "action": "text",
+    "category": "",
+    "enabled": true
+  }
+}

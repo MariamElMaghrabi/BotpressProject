@@ -1,0 +1,16 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "7d9790b4f6",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_carousel-aUSlnz"
+      ],
+      "onReceive": null,
+      "next": []
+    }
+  ]
+}
